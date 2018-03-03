@@ -6,10 +6,10 @@ This module implements pseudo-random number generators for Micropython. For inte
     random.randint(Nmin, Nmax)
 
 Return a random integer N such that Nmin <= N <= Nmax.
-For now, Nmax - Nmin must be less than 256.
+(Nmax - Nmin) must be less than 256.
     
 ## Function for sequences (lists)
 
     random.choice(mylist)
 
-Return a random element from the non-empty sequence.
+Return a random element from the non-empty sequence.Total length of the list must be less than 256.
