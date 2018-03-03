@@ -1,11 +1,11 @@
 """
 usage:
 >>> from random import randint
->>> randint(1,10)
+>>> randint(1,100)
 >>> 
 >>> from random import choice
->>> a = ['Paris','London','Roma','Rio']
->>> choice(a)
+>>> mylist = ['Paris','London','Roma','Rio']
+>>> choice(mylist)
 """
 
 # Pseudo-random number generator module
