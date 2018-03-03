@@ -7,7 +7,7 @@ This module implements pseudo-random number generators for Micropython. For inte
 
 Return a random integer N such that Nmin <= N <= Nmax.
     
-## Function for sequences (list)
+## Function for sequences (lists)
 
     random.choice(mylist)
 
