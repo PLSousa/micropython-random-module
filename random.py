@@ -2,10 +2,11 @@
 usage:
 >>> from random import randint
 >>> randint(1,100)
-
+16
 >>> from random import choice
 >>> mylist = ['Paris','London','Roma','Rio']
 >>> choice(mylist)
+'Roma'
 """
 
 # Pseudo-random number generator module
