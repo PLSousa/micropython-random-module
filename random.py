@@ -2,7 +2,7 @@
 usage:
 >>> from random import randint
 >>> randint(1,100)
->>> 
+
 >>> from random import choice
 >>> mylist = ['Paris','London','Roma','Rio']
 >>> choice(mylist)
